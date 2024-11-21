@@ -6,7 +6,6 @@ import { NextRequest } from "next/server";
 // 1. Use middleware directly
 // export const { auth: middleware } = NextAuth(authConfig)
 
-// 2. Wrapped middleware option
 const { auth } = NextAuth(authConfig);
 export default auth(async function middleware(req: NextRequest) {
 });
