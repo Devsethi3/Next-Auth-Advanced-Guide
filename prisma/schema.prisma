@@ -1,4 +1,4 @@
-// prisma/schema.prisma
+// prisma/schema
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
