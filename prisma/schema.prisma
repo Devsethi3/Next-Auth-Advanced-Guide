@@ -1,7 +1,7 @@
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
-  // uncomment if you use Prisma 
+  // uncomment if you use 
   // directUrl = env("DATABASE_URL_UNPOOLED")
 }
 
