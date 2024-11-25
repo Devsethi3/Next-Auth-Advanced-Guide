@@ -16,3 +16,6 @@ export const RegisterSchema = z.object({
     message: "Name is required",
   }),
 });
+
+export type LoginInput = z.infer<typeof LoginSchema>;
+export type RegisterInput = z.infer<typeof RegisterSchema>;
