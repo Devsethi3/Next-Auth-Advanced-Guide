@@ -17,7 +17,7 @@ model User {
   image         String?
   isVerified    Boolean   @default(false)
   emailVerified DateTime?
-  role          Role      @default(USER)
+  role          UserRole  @default(USER)
   createdAt     DateTime  @default(now())
   updatedAt     DateTime  @updatedAt
 
@@ -25,7 +25,7 @@ model User {
   sessions Session[]
 }
 
-enum Role {
+enum UserRole {
   ADMIN
   USER
 }
