@@ -1,9 +1,23 @@
-import React from "react";
+import { Button } from "@/components/ui/button";
+import { auth, signOut } from "../auth";
 
-const SettingsPage = () => {
+const SettingsPage = async () => {
+  const session = await auth();
   return (
     <>
-      <div>Settings Page</div>
+      <div>
+        {JSON.stringify(session)}
+
+        <form
+          action={async () => {
+            "use server";
+
+            await signOut();
+          }}
+        >
+          <Button type="submit">Sign Out</Button>
+        </form>
+      </div>
     </>
   );
 };
