@@ -17,7 +17,7 @@ export const authRoutes = ["/login", "/register", "/error"];
 /**
  * The prefix for API authentication routes.
  * These routes are prefixed with /api/auth
- * @type {string}
+ *
  */
 
 export const apiAuthPrefix = "/api/auth";
