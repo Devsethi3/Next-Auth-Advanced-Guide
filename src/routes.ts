@@ -1,7 +1,7 @@
 /**
  * An array of routes that are accessible to public
  * These routes do not require authentication.
- * @type {string[]}
+ * @type
  */
 
 export const publicRoutes = ["/"];
