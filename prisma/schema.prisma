@@ -1,7 +1,7 @@
 datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
-  // uncomment next line if you 
+  // uncomment next line if 
   // directUrl = env("DATABASE_URL_UNPOOLED")
 }
 
