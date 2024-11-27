@@ -1,7 +1,7 @@
 /**
  * An array of routes that are accessible to public
  * These routes do not require authentication.
- * @type {string[]}
+ * 
  */
 
 export const publicRoutes = ["/"];
@@ -9,7 +9,7 @@ export const publicRoutes = ["/"];
 /**
  * An array of routes that are used for authentication.
  * These routes will redirect logged in users to the default login redirect.
- * @type {string[]}
+ * 
  */
 
 export const authRoutes = ["/login", "/register", "/error"];
@@ -17,7 +17,7 @@ export const authRoutes = ["/login", "/register", "/error"];
 /**
  * The prefix for API authentication routes.
  * These routes are prefixed with /api/auth
- * @type {string}
+ *
  */
 
 export const apiAuthPrefix = "/api/auth";
