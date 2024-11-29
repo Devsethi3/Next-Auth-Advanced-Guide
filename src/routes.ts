@@ -1,6 +1,6 @@
 /**
  * An array of routes that are accessible to public
- * These.
+ * .
  * 
  */
 
