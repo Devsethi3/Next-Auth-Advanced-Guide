@@ -1,6 +1,6 @@
 /**
  * An array of routes that are accessible to public
- * These routes do not require.
+ * These routes do not.
  * 
  */
 
